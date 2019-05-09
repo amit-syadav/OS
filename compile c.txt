@@ -1,0 +1,5 @@
+gcc filename.c -o filename
+
+run:-
+
+./filename

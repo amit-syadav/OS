@@ -1,0 +1,13 @@
+who
+whoami
+sudo useradd guest4
+sudo passwd guest4
+ls
+ls-l
+ls-l abc
+sudo chgrp guest4 abc
+ls-l abc
+compgen -u|head-1
+compgen -u|tail-1
+sudo userdel guest4
+compgen -u|tail-1

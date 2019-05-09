@@ -1,0 +1,35 @@
+ps
+example hai likh mat{
+
+pid tty                 time cmd
+
+2559 pts/0                 00:00:00 bash
+
+ 2570                      00:00:00 ps 
+
+}
+pwd
+cat>filename like cat>abc(text file create hoga jisme likh skta hai 
+my name is user
+control c ...^C
+cat>>abc
+i am comps
+^C
+hostname
+d13
+wc abc
+2 9 45abc
+mkdir user
+cd user
+/user$ cd
+$ (blank)
+cal
+januray 2019
+s m t w t f s 
+  1 2 3 4 5
+6 7 8 9 10 11 12
+13...19
+20..26
+27...31
+date
+tue jan 22 15:16...

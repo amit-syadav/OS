@@ -1,0 +1,28 @@
+#include<unistd.h>
+stdio
+string.h
+#include<fcntl.h>
+char data[64];
+int read1,w,fd;
+int main()
+{
+ printf("uid:%d",getuid());
+ pf("\neuid:%d",geteuid());
+ pf(gid,getgid());
+pf(egid,getegid());
+fd=open("/home/d17/syscall.txt",O_CREAT|O_RDWR|O_APPEND);
+pf("\nfd:%d",fd);
+read1=read(fd,data,64);
+pf("\nread:%d",read1);
+w=write(fd,"OSL",strlen("OSL"));
+close(fd);
+}
+ o/p:
+d17@d17:$ ./f
+uid:=1000
+.
+.
+.
+.
+fd=3
+read=3

@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<unistd.h>
+void main()
+{
+ int pid=fork();
+if(pid==-1)
+{
+printf("child process is unsuccesful");
+}else if(pid==0)
+{printf("parent id is:%d\n",getpid());
+else
+{printf("child id is:%d\n",getpid());
+}
+}
+d15@d15:/omkarse61$ gcc fork.c -of
+"":""$ ./f
+child id is: 2572
+parent is 2843
+d15 .....$ ps
+output ayega
+phir ./f se
